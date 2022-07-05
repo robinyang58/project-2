@@ -1,0 +1,3 @@
+I created my own deployed website for this project with links to my github account to showcase my portfolio. I wrote a code from scratch and added CSS properties to it to help with the display and formatting of the website.
+I put a picture of myself on my portfolio website, added my contact information, and also have deployable links that when clicked on, scroll down to the section of my website that it relates to.
+I also added comments to my code to explain why I wrote what I did so that it's easier to read and go through the code. 

@@ -1,0 +1,57 @@
+body{
+    background-color:lightskyblue;
+}
+.header{
+    font-weight: bolder;
+    font-style: italic;
+    display:flex;
+    align-items: center;
+}
+
+header{
+    background-color: coral;
+    width: 700px;
+    border: 20px cornflowerblue;
+    padding: 20px;
+    margin: 10px;
+}
+#html{
+ background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+#java{
+    background-color: indianred;
+    width: 250px;
+    border: 20px dashed;
+    padding:50px;
+    margin: 20px;
+}
+/* added flexboxes to my work in progress buttons */
+.boxes{
+    display:flex;
+    flex: 0,0, 300px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.flexboxcontent{
+    display: flex;
+    flex-direction: row;
+    transform: skew(7deg);
+}
+/* added media screen so that the content will fit inside different pixels of screens */
+@media screen and (max-width: 992px) {
+.flexboxcontent{width: 50%;
+    
+}}
+/* added flex direction so that the boxes stack on top of ech other when screen is minimalized to under 768px */
+@media screen and (max-width:768px) {
+.flexboxcontent{width: 100%;
+flex-direction: column;}
+
+
+    
+}
